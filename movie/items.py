@@ -10,5 +10,11 @@ import scrapy
 
 class MovieItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    name = scrapy.Field()
+    status = scrapy.Field()
+    status2 = scrapy.Field()
+    movie_cats = scrapy.Field()
+    movie_address = scrapy.Field()
+    update_time = scrapy.Field()
+
+    # pass
